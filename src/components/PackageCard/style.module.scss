@@ -1,0 +1,32 @@
+.box {
+  width: 296px;
+  height: 118px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  border-radius: 3px;
+  border: solid 1px rgb(221, 221, 221);
+  cursor: pointer;
+
+  img {
+    margin-right: 16px;
+  }
+
+  .selected {
+    margin: 0 auto;
+    width: 22px;
+    height: 22px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    polygon {
+      fill:#3bc3d7;
+    }	
+  }	
+}
