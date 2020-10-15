@@ -56,5 +56,38 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "greatfed.quickfox/electron-ipc@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/components/ElectronIPC/main/index.d.ts",
+                "test": false,
+                "name": "index.d.ts"
+            },
+            {
+                "relativePath": "src/components/ElectronIPC/main/index.ts",
+                "test": false,
+                "name": "index.ts"
+            },
+            {
+                "relativePath": "src/components/ElectronIPC/main/server.ts",
+                "test": false,
+                "name": "server.ts"
+            },
+            {
+                "relativePath": "src/components/ElectronIPC/render/index.ts",
+                "test": false,
+                "name": "index.ts"
+            },
+            {
+                "relativePath": "src/components/ElectronIPC/render/request.ts",
+                "test": false,
+                "name": "request.ts"
+            }
+        ],
+        "mainFile": "src/components/ElectronIPC/main/index.ts",
+        "trackDir": "src/components/ElectronIPC",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "version": "14.8.8"
 }
