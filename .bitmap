@@ -19,5 +19,42 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "greatfed.others/zx-encrypt@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/components/ZxEncrypt/index.d.ts",
+                "test": false,
+                "name": "index.d.ts"
+            },
+            {
+                "relativePath": "src/components/ZxEncrypt/index.js",
+                "test": false,
+                "name": "index.js"
+            },
+            {
+                "relativePath": "src/components/ZxEncrypt/wasm_aes_bg.d.ts",
+                "test": false,
+                "name": "wasm_aes_bg.d.ts"
+            },
+            {
+                "relativePath": "src/components/ZxEncrypt/wasm_aes_bg.js",
+                "test": false,
+                "name": "wasm_aes_bg.js"
+            },
+            {
+                "relativePath": "src/components/ZxEncrypt/wasm_aes_bg.wasm",
+                "test": false,
+                "name": "wasm_aes_bg.wasm"
+            },
+            {
+                "relativePath": "src/docs/ZxEncrypt.md",
+                "test": false,
+                "name": "ZxEncrypt.md"
+            }
+        ],
+        "mainFile": "src/components/ZxEncrypt/index.js",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "version": "14.8.8"
 }
