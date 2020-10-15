@@ -4,7 +4,7 @@ const isDev = process.env.RUN_ENV !== 'prod';
 
 const rules = [
   {
-    test: /\.tsx?$/,
+    test: /\.(t|j)sx?$/,
     include: dirs.src,
     use: [
       {

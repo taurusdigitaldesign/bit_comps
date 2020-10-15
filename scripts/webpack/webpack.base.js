@@ -8,7 +8,7 @@ module.exports = {
 
   resolve: {
     modules: [dirs.src, dirs.modules],
-    extensions: ['.js', '.ts', '.tsx'],
+    extensions: ['.js', '.ts', '.tsx', '.jsx'],
     alias: {
       '~': dirs.src,
       '@assets': path.resolve(dirs.src, './.assets')
