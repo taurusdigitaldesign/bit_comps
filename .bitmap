@@ -47,6 +47,29 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "greatfed.linkfox/verify-input@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/components/VerifyInput/index.d.ts",
+                "test": false,
+                "name": "index.d.ts"
+            },
+            {
+                "relativePath": "src/components/VerifyInput/index.jsx",
+                "test": false,
+                "name": "index.jsx"
+            },
+            {
+                "relativePath": "src/components/VerifyInput/style.module.scss",
+                "test": false,
+                "name": "style.module.scss"
+            }
+        ],
+        "mainFile": "src/components/VerifyInput/index.jsx",
+        "trackDir": "src/components/VerifyInput",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "greatfed.others/mobx-provider@0.0.1": {
         "files": [
             {

@@ -1,0 +1,43 @@
+.box {
+    width: 350px;
+    height: 64px;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    border: solid 1px #e5e5e5;
+    background-color: white;
+  
+    .btn {
+      width: 156px;
+      padding: 0 18px;
+      border-radius: 0;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .unSended {
+      color: white;
+      background-image: linear-gradient(90deg, #f6b85c, #fc8941);
+      cursor: pointer;
+    }
+  
+    .sended {
+      border-left: solid 1px #e5e5e5;
+      background-color: #fafafa;
+      color: rgba(0, 0, 0, 0.65);
+    }
+  
+  
+    .input {
+      border: none;
+      background-color: transparent;
+      flex-grow: 1;
+    }
+  
+    .input:focus {
+      outline: none;
+      border: none;
+    }
+  }
